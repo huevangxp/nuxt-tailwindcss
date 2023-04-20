@@ -1,6 +1,6 @@
 <template>
    <div>
-      <header class="bg-[#081b29] text-white fixed w-full py-2">
+      <header class="bg-[#081b29] text-white fixed w-full py-2 z-50">
          <nav class="pl-4 h-10 pt-2 flex justify-between">
            <div>
             <img 
