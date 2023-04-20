@@ -2,6 +2,7 @@
   <div>
     <HeaderJacob/>
     <Card/>
+    <Anime/>
   </div>
 </template>
 
