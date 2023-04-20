@@ -1,4 +1,39 @@
 <template>
+  <div>
+    <section class="h-[50vh]">
+      <div
+        class="introDescription"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+      >
+        A student's Guide
+        <br />
+        <p>to Learning from Home</p>
+      </div>
+    </section>
+    <section class="h-[50vh] flex justify-between px-[40vh] bg-slate-500">
+      <div
+        class="flex items-center"
+        data-aos="fade-in"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+      >
+        <p class="p text-3xl text-center font-bold text-white">
+          A student's Guide to Learning from Home
+        </p>
+      </div>
+      <div data-aos="zoom-out" data-aos-delay="1000" data-aos-duration="1500">
+        <img
+          class="h-[45vh] w-[35vh]"
+          src="https://res.cloudinary.com/dsderm9xw/image/upload/v1622028117/3D%20Illustrations/3d-illustration4_usckww.png"
+          alt="3d illustration of boy with a flag"
+        />
+      </div>
+    </section>
+  </div>
+</template>
+<!-- <template>
     <main id="app">
       <section class='intro'>
         <div class='introDescription' data-aos="zoom-in"
@@ -81,15 +116,12 @@
   
   
   
-  <!-- Use preprocessors via the lang attribute! e.g. <style lang="scss"> -->
   <style scoped>
   *{
     margin:0;
     padding:0;
   }
-  #app{
-    margin-top: 40px;
-  }
+
   .intro{
     display:flex;
     background: #fff3e2;
@@ -208,4 +240,4 @@
   
   </style>
   
-  <script>
+  <script> -->

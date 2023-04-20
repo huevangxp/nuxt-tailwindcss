@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderJacob/>
-    <Card/>
+    <!-- <Card/> -->
     <Anime/>
   </div>
 </template>

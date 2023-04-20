@@ -10,7 +10,7 @@
       </div>
     </div>
        <div class="px-10 flex-1 h-[70vh]">
-        <img src="/bb.png" alt="iamge" class="h-[70vh] w-auto">
+        <img  src="/bb.png" alt="iamge" class="h-[70vh] w-auto hover:opacity-10 hover:delay-1000 hover:transition">
        </div>
     </div>
 </template>

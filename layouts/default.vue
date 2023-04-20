@@ -15,7 +15,7 @@
          <nuxt-link to="/login" class="mr-2">login</nuxt-link>
          </nav>
       </header>
-      <main class="pt-[54px]">
+      <main class="">
          <nuxt/>
       </main>
    </div>
