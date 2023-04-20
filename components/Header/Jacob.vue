@@ -9,7 +9,7 @@
         <button class="border-[#0FA2EE] hover:bg-[#0FA2EE] hover:text-[#081b29] hover:p-2 outline text-[#0FA2EE] p-1.5 rounded font-bold px-4 hover:px-4">Let's Talk</button>
       </div>
     </div>
-       <div class="px-10 flex-1 h-[70vh]">
+       <div class="px-10 flex-1 h-[70vh]" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1500">
         <img  src="/bb.png" alt="iamge" class="h-[70vh] w-auto hover:opacity-10 hover:delay-1000 hover:transition">
        </div>
     </div>

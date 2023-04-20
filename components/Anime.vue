@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section class="h-[50vh]">
+    <section class="h-[80vh] bg-slate-500">
       <div
-        class="introDescription"
+        class=""
         data-aos="zoom-in"
         data-aos-duration="1500"
         data-aos-delay="500"
@@ -12,20 +12,28 @@
         <p>to Learning from Home</p>
       </div>
     </section>
-    <section class="h-[50vh] flex justify-between px-[40vh] bg-slate-500">
+    <section class="h-[80vh] flex justify-between px-[30vh] bg-gray-800">
       <div
         class="flex items-center"
         data-aos="fade-in"
         data-aos-duration="1500"
         data-aos-delay="500"
       >
+      <div class="w-[90vh]">
         <p class="p text-3xl text-center font-bold text-white">
           A student's Guide to Learning from Home
         </p>
+        <p class="font-semibold text-[#f2f2f2] pt-4 text-center mx-[10vh]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, similique nostrum odit incidunt necessitatibus vitae ducimus assumenda animi minima quia consequuntur. Tempore iusto totam aperiam, deleniti qui hic rem nisi in repellendus error. Doloribus iusto ut asperiores odio architecto fuga.</p>
       </div>
-      <div data-aos="zoom-out" data-aos-delay="1000" data-aos-duration="1500">
+      </div>
+      <div 
+      data-aos="zoom-out"
+       data-aos-delay="1000" 
+       data-aos-duration="1500"
+       data-aos-offset="200px"
+       data-aos-anchor-placement="top">
         <img
-          class="h-[45vh] w-[35vh]"
+          class="h-[75vh] w-[65vh]"
           src="https://res.cloudinary.com/dsderm9xw/image/upload/v1622028117/3D%20Illustrations/3d-illustration4_usckww.png"
           alt="3d illustration of boy with a flag"
         />
