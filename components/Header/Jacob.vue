@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#081b29] h-[80vh] text-white flex items-center">
+  <div class="bg-[#081b29] h-[80vh] text-white flex items-center w-full md:w-full sm:w-full">
     <div class="px-10 flex-1">
       <h1 class="text-white text-3xl font-bold">Hi, I'm Huevang Xiongpor</h1>
       <p class="text-[#0FA2EE] text-2xl font-bold">Frontend Developer</p>
@@ -16,20 +16,34 @@
         </button>
         <button
           class="border-[#0FA2EE] hover:bg-[#0FA2EE] hover:text-[#081b29] hover:p-2 outline text-[#0FA2EE] p-1.5 rounded font-bold px-4 hover:px-4"
-        >
+          @click="dialog = !dialog"
+          >
           Let's Talk
         </button>
+
+
       </div>
     </div>
-    <div class="px-10 flex-1 h-[70vh]">
+    <div class="px-10 flex-1 h-[70vh] w-full">
       <img
         src="/bb.png"
         alt="iamge"
-        class="h-[70vh] w-auto hover:opacity-10 hover:delay-1000 hover:transition"
+        class="h-[70vh] w-auto hover:opacity-10 delay-900 transition"
       />
     </div>
+
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      dialog: false
+    }
+  },
+}
+</script>
 
 <style>
 .back {

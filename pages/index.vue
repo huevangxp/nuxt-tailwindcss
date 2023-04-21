@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sm:w-full w-full">
     <HeaderJacob/>
     <!-- <Card/> -->
     <Anime/>
