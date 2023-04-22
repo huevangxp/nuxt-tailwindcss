@@ -1,14 +1,18 @@
 <template>
   <div>
-    <section class="h-[80vh] bg-slate-500 flex justify-evenly -z-50">
+    <section class="h-[80vh] bg-gray-100 flex justify-center">
+      <div class="flex items-center ">
+        <h1>This is My Website</h1>
+      </div>
+    </section>
+    <section class="h-[80vh] bg-gray-800 flex justify-evenly">
       <div
-        class="w-full"
         data-aos-delay="3000"
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
       >
-        <img class="h-[75vh] w-[95vh]" src="/student.png" />
+        <img class="h-[75vh] w-[65vh]" src="/student.png" />
       </div>
       <div
         class="flex items-center"
@@ -16,25 +20,11 @@
         data-aos-duration="1500"
         data-aos-delay="500"
       >
-        <div class="max-w-lg">
+        <div>
           <p class="p text-3xl text-center font-bold text-white">
             A student's Guide to Learning from Home
           </p>
-          <p class=" text-center font-bold pt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, est?</p>
-          <p class="font-semibold sm:hidden text-[#f2f2f2] pt-4 text-center">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Perferendis blanditiis ipsum dignissimos distinctio sapiente, fugit,
-            provident sed aperiam, vero nam totam natus! Molestiae provident
-            expedita excepturi omnis dolorum adipisci obcaecati saepe aspernatur
-            ab tempora delectus deleniti, earum nobis perferendis incidunt fugit
-            iusto officia minima, aperiam perspiciatis quo sit. Itaque quas ipsa
-            impedit odio culpa beatae perferendis voluptas eligendi praesentium
-            minima quae saepe provident ut tempore magni animi magnam voluptatem
-            dolorum harum laudantium fuga non quidem, nostrum iusto? Obcaecati
-            voluptatem sequi, eum ipsam aliquam illum! Odio mollitia facere
-            libero aliquam quas animi laboriosam velit quam ipsam deleniti?
-            Nulla consectetur qui id.
-          </p>
+          <p class=" text-center font-bold pt-10 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, est?</p>
         </div>
       </div>
     </section>
@@ -45,8 +35,8 @@
         data-aos-duration="1500"
         data-aos-delay="500"
       >
-        <div class="max-w-lg">
-          <p class="p text-3xl text-center font-bold text-white">
+        <div >
+          <p class="text-3xl text-center font-bold text-white">
             A student's Guide to Learning from Home
           </p>
           <p class="font-semibold text-[#f2f2f2] pt-4 text-center">
@@ -59,15 +49,14 @@
         </div>
       </div>
       <div
-        class="w-screen"
-        data-aos="zoom-out"
+      class="w-full"
+        data-aos="fade-out"
         data-aos-delay="1000"
         data-aos-duration="1500"
-        data-aos-offset="200px"
         data-aos-anchor-placement="top"
       >
         <img
-          class="h-[75vh] w-[95vh]"
+          class="h-[75vh] w-[65vh]"
           src="https://res.cloudinary.com/dsderm9xw/image/upload/v1622028117/3D%20Illustrations/3d-illustration4_usckww.png"
           alt="3d illustration of boy with a flag"
         />

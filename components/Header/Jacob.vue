@@ -1,9 +1,9 @@
 <template>
   <div class="bg-[#081b29] h-[80vh] text-white flex items-center w-full md:w-full sm:w-full">
-    <div class="px-10 flex-1">
+    <div class="px-10 flex-1 text-center">
       <h1 class="text-white text-3xl font-bold">Hi, I'm Huevang Xiongpor</h1>
       <p class="text-[#0FA2EE] text-2xl font-bold">Frontend Developer</p>
-      <p class="text-lg py-5">
+      <p class="text-lg py-5 text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
         omnis corrupti fuga quasi fugiat nam, et animi ex exercitationem laborum
         consequuntur consequatur recusandae. Distinctio, enim.
@@ -24,11 +24,11 @@
 
       </div>
     </div>
-    <div class="px-10 flex-1 h-[70vh] w-full">
+    <div class=" flex-1 h-[70vh]">
       <img
         src="/bb.png"
         alt="iamge"
-        class="h-[70vh] w-auto hover:opacity-10 delay-900 transition"
+        class="h-[70vh]  hover:opacity-10 delay-900 transition"
       />
     </div>
 

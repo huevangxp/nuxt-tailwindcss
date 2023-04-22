@@ -12,7 +12,7 @@
             <nuxt-link to="/about" class="pl-4 pr-4  p-1 hover:outline rounded">About</nuxt-link>
             <nuxt-link to="/contact" class="pl-4 pr-4  p-1 hover:outline rounded" >Contact</nuxt-link>
          </div>
-         <nuxt-link to="/login" class="mr-2">login</nuxt-link>
+         <nuxt-link to="/login" class="pr-2">login</nuxt-link>
          </nav>
       </header>
       <main>
