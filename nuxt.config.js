@@ -24,6 +24,7 @@ export default {
   plugins: [
     { src: '~/plugins/aos.js', mode: 'client' },
     { src: '~/plugins/gsap.js', mode: 'client' },
+    {src:'~/plugins/vue-particles.js', mode: 'client' },
 
   ],
 

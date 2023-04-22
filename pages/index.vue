@@ -1,6 +1,7 @@
 <template>
   <div class="sm:w-full w-full">
-    <HeaderJacob/>
+    <!-- <HeaderJacob/> -->
+    <Particles/>
     <!-- <Card/> -->
     <Anime/>
   </div>

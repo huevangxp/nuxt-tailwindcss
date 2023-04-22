@@ -3,7 +3,7 @@
     <div class="px-10 flex-1 text-center">
       <h1 class="text-white text-3xl font-bold">Hi, I'm Huevang Xiongpor</h1>
       <p class="text-[#0FA2EE] text-2xl font-bold">Frontend Developer</p>
-      <p class="text-lg py-5 text-center">
+      <p class="text-lg py-5 text-center text" >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
         omnis corrupti fuga quasi fugiat nam, et animi ex exercitationem laborum
         consequuntur consequatur recusandae. Distinctio, enim.
@@ -28,7 +28,7 @@
       <img
         src="/bb.png"
         alt="iamge"
-        class="h-[70vh]  hover:opacity-10 delay-900 transition"
+        class="h-[70vh]  hover:opacity-10 delay-900 transition  hover:backdrop-blur-lg"
       />
     </div>
 
@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style>
+
 .back {
   background-image: url("https://images.unsplash.com/photo-1681673211977-2d3274d07ff9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60")
     center center fixed !important;

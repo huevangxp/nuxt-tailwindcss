@@ -1,8 +1,9 @@
 <template>
-  <div>
-    <section class="h-[80vh] bg-gray-100 flex justify-center">
+  <div >
+    <section class="bg-cover bg-repeat bg-center h-[100vh] flex justify-center" :style="{ backgroundImage: 'url(/card.jpg) ' }">
       <div class="flex items-center ">
-        <h1>This is My Website</h1>
+        <h1 class="p-10 border text-blue-700 border-gray-50 backdrop-blur-sm rounded-lg hover:backdrop-blur-3xl text-3xl font-bold hover:text-white">This is My Website</h1>
+        <!-- <img src="/card.jpg" alt=""> -->
       </div>
     </section>
     <section class="h-[80vh] bg-gray-800 flex justify-evenly">
@@ -64,3 +65,16 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+.text{
+  background-color:transparent;
+  border:1px solid rgb(239, 0, 0);
+  border-radius:20px;
+  backdrop-filter: blur(100px);
+  padding: 10px;
+}
+#back{
+  background-image: url('./static/card.jpg') no-repeat;
+}
+</style>
