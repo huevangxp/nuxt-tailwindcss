@@ -15,7 +15,7 @@
         >
       </div>
       <div class="px-2 grid grid-cols-4 gap-4">
-    <template v-for="(data,idx) in 4">
+    <template v-for="(data,idx) in 100">
       <div  class="max-w-xs rounded overflow-hidden shadow-md shadow-gray-500">
         <img class="w-full h-60 object-cover" src="/card.jpg" alt="Card" />
         <div class="px-6 py-4">
