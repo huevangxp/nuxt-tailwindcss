@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-14 container">
-    <div class="bg-gray-800 w-screen h-[50vh] text-white flex justify-items-center"> 
+  <div class="container">
+    <div class="bg-gray-800 w-screen h-[50vh] text-white flex items-center px-10"> 
       <h1>About My Company</h1>
     </div>
   </div>

@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-tailwind',
+    title: 'ຮ້ານ ອາຫານແກ້ວມັງກອນ',
     htmlAttrs: {
       lang: 'en'
     },
