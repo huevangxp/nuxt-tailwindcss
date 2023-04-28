@@ -1,7 +1,12 @@
 <template>
-  <div class="container">
-    <div class="bg-gray-800 w-screen h-[50vh] text-white flex items-center px-10"> 
-      <h1>About My Company</h1>
-    </div>
+  <div class="container p-2">
+    <client-only>
+      <adsbygoogle
+        ad-client="ca-pub-5604930670670575"
+     
+        ad-format="auto"
+        responsive="true"
+      ></adsbygoogle>
+    </client-only>
   </div>
 </template>
